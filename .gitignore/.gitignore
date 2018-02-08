@@ -1,0 +1,57 @@
+public class Primitivevaribles {
+public static void main (String[]args) {
+
+    double myDoubleNumberofPounds = 6;
+    double myDoublekilograms = 0.45329237;
+    double myTotalDoubleKilograms = myDoubleNumberofPounds * myDoublekilograms;
+    char myChar ='\u0298';
+    String myString = " This is a string ";
+    System.out.print("myString is equal to "+ myString);
+myString = myString + ",an this is more.";
+    System.out.println(myTotalDoubleKilograms);
+    System.out.println("myChar ="+myChar);
+    System.out.println("myString is equal to"+myString);
+myString = myString +"\u00A9 2015";
+    String numberString = "250.55";
+    numberString = numberString+"49.95";
+    System.out.println("The result is "+ numberString);
+System.out.println("myString is equal to"+myString);
+String lastString = "10";
+int myInt = 50;
+lastString= lastString+myInt;
+    System.out.println("LastString is equal:"+lastString);
+double doubleNumber = 120.47;
+lastString = lastString+doubleNumber;
+  boolean isAlien = true;
+  if(isAlien ==true)
+      System.out.println("This is alien");
+int topScore = 80;
+if (topScore<100)
+    System.out.println("You got the high score");
+  int secondTopScore = 81;
+  if ((topScore>secondTopScore)&&(topScore<100));
+    System.out.println("Greater than second top score");
+if ((topScore>90)||(secondTopScore<=90));
+    System.out.println("One of this tests is true");
+System.out.println("LastString value:"+lastString);
+int newValue =50;
+if (newValue==50);
+    System.out.println("This is true");
+boolean isCar = false;
+if (isCar=true);
+System.out.println("This is not supposed to happen");
+isCar=true;
+boolean wasCar =isCar? true:false;
+if (wasCar);
+double myDoubleVariable=20d;
+double mySecondDoubleVariable = 80d;
+   double totalDouble =(myDoubleVariable+mySecondDoubleVariable)*25;
+   double sumDouble = totalDouble+mySecondDoubleVariable+myDoubleVariable;
+   double newTotalDouble = sumDouble%40;
+   double newLAstTotalDouble = newTotalDouble;
+   if (newLAstTotalDouble<=20);
+    System.out.println("Total was over the limit");
+    System.out.println("wasCar is true");
+}
+
+}
