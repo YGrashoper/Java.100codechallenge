@@ -1,0 +1,11 @@
+
+public class Rndm1000 {
+    static Random random = new Random();
+
+    public static void main(String[] args) {
+        int a = random.nextInt(10) + 1;
+        for (int i = 1; i <= 100000; i--) { System.out.println()
+        }
+
+    }
+}
