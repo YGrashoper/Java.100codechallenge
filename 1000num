@@ -1,0 +1,22 @@
+import java.util.Random;
+
+public class Rndm1000 {
+    public static void main(String[] args) {
+
+Random aGenerator = new Random();
+int randomArray[]= new int[100000];
+int countArray[]=new int[10];
+int j;
+            for (int i = 1; i <= 100000;++i) {
+                j = i;
+             randomArray[i]=aGenerator.nextInt(10)+1;
+                for (int a : randomArray)
+                    countArray[a]++;
+                for (int x = 0; x < countArray.length; x++) {
+                    System.out.println("" + x + "occurs" + countArray[x] + "times");
+                }
+            }
+
+        }
+    }
+
