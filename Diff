@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+public class Uzduotis3 {
+
+    public static void main(String[] args) {
+//
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter any String");
+        String myString = scanner.nextLine();
+//        Diff diff = new Diff();//compareTo//find out what is diff
+        String mySecondString = myString.trim();
+        System.out.println("++"+mySecondString + "++");//trim removes gaps between strings//string nekintamas, busena nekeiciama//
+//naujas metodas, bus grazinamas naujas objektas, jeigu reikalingas naujas objektas, reikia atlikti papildoma priskirima//
+// //žinoti immutable objektus-String klase kuri neturi ne vieno metodo kuris pakeistu string saugoma reiksme, nebent mes priskirsime nauja reiksme jau esancim Stringui//
+        String myThirdString = myString.replace("A","B");
+        System.out.println(myThirdString);
+        String myForth =myString.toLowerCase();
+        System.out.println(myForth);
+        String myFifthString =myString.toUpperCase();
+        System.out.println(myFifthString);//s-means static method//pabandyti substring, replase, length, //
+//String konstruktorius neprivalomas//primena primityvias kintamasias//
+
+// if
+// (myString.equals("ans")) {
+//            System.out.println("your string is equal");
+//        } else {
+//            System.out.println("your string is non equal");
+//
+//                System.out.println("Your both Strings are non equal");
+            }
+        }
