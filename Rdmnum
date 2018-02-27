@@ -1,0 +1,25 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class rndm {
+//    static Scanner scanner= new Scanner(System.in);
+    static Random random = new Random();
+    public static void main(String[]args) {
+        //random remiasi, process hz, laiku, taktuand so on//
+        int a = random.nextInt(100)+1;
+        int b = random.nextInt(100)+1;
+       int c = random.nextInt(100)+1;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        if (a>b && a>c){
+            System.out.println(a +"yra didziausias");
+        }else if (b>c && b>a){
+            System.out.println(b +"yra didziausias");
+        }else {
+            System.out.println(c+"yra didziausias");
+        }
+
+    }
+ //var = use method int.nextInt();
+}
