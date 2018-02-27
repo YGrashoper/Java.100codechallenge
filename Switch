@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class UseSwitchAlgorithm {
+public static void main(String[]args){
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Iveskite skaiciu nuo 1 iki 10 ");
+
+    int k =scanner.nextInt();
+    //i char we input number of case//
+    switch (k){//no float, and no double//
+        case 1:
+            System.out.println("vienas");//gali ivykdyti visas sakas kol neatsiras break//
+
+//            default:smth;//moka praleisti is virsaus einancias reiksmes//
+        //jej nera break, bus ivikdyty ir default sakiniai//
+        case 2:
+            System.out.println("du");
+        case 3:
+            System.out.println("trys");//output will be 3 as  break goes after case 3
+        case 4:
+            System.out.println("keturi" );
+        case 5:
+            System.out.println("penki" );
+        case 6:
+            System.out.println("šeši" );
+        case 7:
+            System.out.println("septyni" );
+        case 8:
+            System.out.println("aštuoni" );
+        case 9:
+            System.out.println("devyni" );
+
+        case 10:
+            System.out.println("dešimt" );
+
+
+
+
+
+    }
+
+
+}
+
+}
+//switch works fater then if/else//labai panasu i if/else
