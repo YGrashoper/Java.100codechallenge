@@ -1,0 +1,66 @@
+package lt.codeacademy.week3.loops3.u9;
+//klases telefonas sukurimas, klases kintamuju skurimas
+public class Telefonas {
+    public int memory;
+    private String brand;
+    private String model;
+    private String color;
+
+
+    String getModel() {
+        return model;
+    }
+
+    public void setModel(String newModel) {
+        model = newModel;
+    }
+
+    String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String newBrand) {
+
+        brand = newBrand;
+    }
+
+    String getColor() {
+        return color;
+    }
+
+    public void setColor(String newColor) {
+        color = newColor;
+    }
+
+    int getMemory() {
+        return memory;
+    }
+
+    public void setMemory(int newMemory) {
+        memory = newMemory;
+    }
+
+    public static void main(String[] args) {
+        Telefonas telefonas = new Telefonas();
+        Telefonas telefonas1 = new Telefonas();
+
+
+        telefonas.setModel("NOKIA");
+        telefonas1.setModel("SAMSUNG");
+
+
+        telefonas.setBrand("CGI");
+        telefonas1.setBrand("WTF");
+
+
+        telefonas.setColor("BLACK");
+        telefonas1.setColor("BLUE");
+
+        telefonas.setMemory(7);
+        telefonas1.setMemory(4);
+
+        System.out.println(telefonas1.getBrand()+"  "+telefonas1.getModel()+" "+telefonas1.getColor()+"  " +telefonas1.getMemory());
+        System.out.println(telefonas.getBrand()+"  "+telefonas.getModel()+" "+telefonas.getColor()+" "+telefonas.getMemory());
+
+    }
+}
