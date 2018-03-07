@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Fibonacci {
+    public static void main(String []args){
+        System.out.println();
+       int [] feb = new int[8];
+       feb[0]=0;
+       feb[1]=1;
+       for(int i =2;i<8;i++){
+           feb[i]=feb[i-1]+feb[i-2];
+       }
+
+        for (int i =0;i<8; i++){
+
+           System.out.println(feb[i]+"");
+       }
